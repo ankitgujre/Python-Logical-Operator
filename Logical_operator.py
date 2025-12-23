@@ -1,3 +1,5 @@
+
+
 print(0 and 1)
 print(20 and 100)
 print(0 or 1)
@@ -53,7 +55,9 @@ print(not 0)
 num = int(input("Enter number: "))
 
 if num > 50 and num % 4 == 0:
-    print("greate than 50 and divisible by 4")
+    print("greater than 50 and divisible by 4")
+elif num > 50 and num % 4 != 0:
+    print("greater than 50 but not divisible by 4")
 else:
     print("not greater than 50")
     
