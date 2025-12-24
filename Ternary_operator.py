@@ -61,6 +61,18 @@
 
 '''   check the number is above 50 and divisible by 3'''
 
-num = int(input("Enter digit: "))
+# num = int(input("Enter digit: "))
 
-print("numer greater than 50 and divisible by 3") if num > 50 and num %3 == 0 else print("not greater than")
+# print("numer greater than 50 and divisible by 3") if num > 50 and num %3 == 0 else print(" greater than 50 but not divisible")
+
+''' check the given number is divisible by 2 and 4 '''
+
+# num = int(input("Enter number: "))
+# print("Completely divisible by 2 and 4") if num%2==0 and num%4==0 else print("not divisibl both")
+
+
+''' check the year is leap year or not  '''
+year = int(input("Enter year: "))
+
+print("Leap Year") if (year % 400 == 0 or (year % 4 == 0 and year % 100 != 0)) else print("Not a Leap Year")
+
